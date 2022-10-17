@@ -55,10 +55,10 @@ larm-end-coords:
   rotate    : [0.0, 1.0, 0.0, 90.0]
 rleg-end-coords:
   parent: RLEG_LINK5
-  translate : [0, 0, -0.1]
+  translate : [0, 0, -0.2]
 lleg-end-coords:
   parent: LLEG_LINK5
-  translate : [0, 0, -0.1]
+  translate : [0, 0, -0.2]
 head-end-coords:
   parent: HEAD_LINK1
   translate : [0.1, 0.0, 0.1]

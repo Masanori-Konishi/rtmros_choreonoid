@@ -1581,10 +1581,15 @@ DEF JAXON_JVRC Humanoid {
                                               mass 0.7
                                               momentsOfInertia [0.1 0 0 0 0.1 0 0 0 0.1]
                                               children [
-                                                Surface {
-                                                  visual [ Inline { url "LLEG_LINK5_L.wrl" } ] # visual
-                                                  collision [ Inline { url "collision_directory/LLEG_LINK5_L.wrl" } ] # collision
-                                                } # surface
+					        Transform {
+                                                  translation 0 0 0.1025
+                                                  children [
+                                                    Surface {
+                                                      visual [ Inline { url "LLEG_LINK5_L.wrl" } ] # visual
+                                                      collision [ Inline { url "LLEG_LINK5_L.wrl" } ] # collision
+                                                    } # surface
+						  ]
+						}
                                               ]
                                             } # End of LLEG_LINK5_LOWER
                                           ]
@@ -1829,10 +1834,15 @@ DEF JAXON_JVRC Humanoid {
                                               mass 0.7
                                               momentsOfInertia [0.1 0 0 0 0.1 0 0 0 0.1]
                                               children [
-                                                Surface {
-                                                  visual [ Inline { url "RLEG_LINK5_L.wrl" } ] # visual
-                                                  collision [ Inline { url "collision_directory/RLEG_LINK5_L.wrl" } ] # collision
-                                                } # surface
+					        Transform {
+                                                  translation 0 0 0.1025
+                                                  children [
+                                                    Surface {
+                                                      visual [ Inline { url "RLEG_LINK5_L.wrl" } ] # visual
+                                                      collision [ Inline { url "RLEG_LINK5_L.wrl" } ] # collision
+                                                    } # surface
+                                                  ]
+                                                }
                                               ]
                                             } # End of RLEG_LINK5_LOWER
                                           ]
